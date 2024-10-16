@@ -5,8 +5,11 @@ A brief description of what this project does and who it's for
 
 
 ## PDF of website
+Desktop
+https://drive.google.com/file/d/1XKILGPIoaXuKquZByDvZvh15wIwNIHoj/view?usp=sharing
 
-https://drive.google.com/file/d/1FTU0uNbh7Ipd14xl3knEtB7p3PbGaXuB/view?usp=sharing
+Mobile
+https://drive.google.com/file/d/1XKILGPIoaXuKquZByDvZvh15wIwNIHoj/view?usp=sharing
 
 
 ## Documentation
