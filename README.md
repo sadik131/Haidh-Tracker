@@ -12,7 +12,7 @@ Mobile page1
 https://drive.google.com/file/d/1cdVzacOjoV8ApHMTXKqMasuID9z1hONx/view?usp=sharing
 
 Desktop page2
-https://drive.google.com/file/d/101l-QAt47ftaWzaTAvOfeieJlGRoPNw2/view?usp=sharing
+https://drive.google.com/file/d/1RhnP-0hhfPHhcnOP5-6h__UNZisM2lPS/view?usp=sharing
 
 Mobile page2
 https://drive.google.com/file/d/1xhVVpAZR8awnT2knujpQQ6EkZEq5EI9o/view?usp=sharing
