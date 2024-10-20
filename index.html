@@ -7,9 +7,7 @@
     <link href="./src/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +19,7 @@
         </div>
         <div class="hidden lg:flex text-white items-center gap-10">
             <a href=""
-                class="relative after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-12px] after:h-[2px] after:bg-white">
+                class="relative font-semibold after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-12px] after:h-[2px] after:bg-white">
                 Hanafi
             </a>
             <a href="./index.html">Motivation</a>
@@ -46,7 +44,7 @@
 
     <!-- top hero section -->
     <section
-        class="relative flex flex-col px-4 py-9 lg:pt-5 lg:flex-row items-center gap-10 justify-between lg:px-36 lg:pb-40 bg-cover bg-center"
+        class="relative flex flex-col px-4 py-9 lg:pt-5 lg:flex-row items-center gap-5 lg:gap-10 justify-between lg:px-36 lg:pb-40 bg-cover bg-center"
         style="background-image: linear-gradient(to top, #D781EF, #F38D94); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
         <!-- Pseudo-element for background image -->
@@ -55,17 +53,17 @@
 
         <!-- Content -->
         <div class="relative z-10 text-white flex flex-col gap-5">
-            <h1 class="text-3xl lg:text-6xl text-center lg:text-start">Understand your <br> Habit at first glance</h1>
-            <p class="text-base lg:text-3xl">First ever Islamic period tracking app <br> personalised for muslim women
+            <h1 class="text-5xl lg:text-6xl text-center lg:text-start">Understand your Habit at first glance</h1>
+            <p class="text-base text-center lg:text-start lg:text-3xl">First ever Islamic period tracking app <br> personalised for muslim women
             </p>
-            <div>
-                <button class="px-12 py-4 bg-[#8E78FF] uppercase font-semibold rounded-3xl text-white mt-3">Try myhayd
+            <div class="mx-auto lg:mx-0">
+                <button class="px-12 py-4 bg-[#8E78FF] uppercase font-extrabold rounded-3xl text-white mt-3">Try myhayd
                     app</button>
             </div>
         </div>
 
-        <div class="relative z-10">
-            <div class="shadow-md hidden lg:flex flex-col gap-4 rounded-lg bg-white px-6 py-2 right-0 absolute">
+        <div class="relative lg:px-[98px] z-10">
+            <div class="shadow-md hidden lg:flex flex-col gap-4 rounded-lg bg-white px-6 py-2 left-14 absolute">
                 <h6 class="text-xl font-bold">Share via</h6>
                 <div class="flex gap-4">
                     <img class="h-9 w-9 object-cover" src="./img/facebook (1).png" alt="">
@@ -79,108 +77,117 @@
                     <button class="px-4 rounded-3xl text-white bg-orange-600">Copy</button>
                 </div>
             </div>
-            <img class="w-44 h-96 lg:h-[641px] mt-4 lg:mt-28 lg:w-[295px] rounded-3xl p-1 bg-[#BFCBDB] object-cover"
+            <img class="w-44 h-96 lg:h-[641px] mt-4 lg:mt-28 lg:w-[557px] rounded-3xl p-1 bg-[#BFCBDB] object-cover"
                 src="./img/hero.png" alt="">
         </div>
     </section>
 
-
-
-
     <section class="relative">
-        <div class="w-[100%] mx-auto py-24 bg-[#FAFBFF] relative overflow-hidden">
+        <div class="w-[100%] mx-auto py-24 bg-[#FAFBFF] relative">
             <!-- Overlay -->
-            <div class="absolute inset-0  opacity-10 z-0"></div>
+            <div class="absolute inset-0 opacity-10 z-0"></div>
 
             <!-- Flower image for top left -->
             <img src="./img/flower.png" alt=""
-                class="lg:h-[750px] lg:w-[495px] h-[385px] w-[240px] absolute -top-36 left-0 w-26 h-26 z-10">
+                class="lg:h-[750px] lg:w-[495px] h-[385px] w-[240px] absolute top-36 lg:-top-[19rem] left-0 z-20">
 
             <div class="w-full lg:w-[70%] mx-auto flex flex-col lg:flex-row items-center lg:gap-20 relative z-10">
                 <img class="z-10 h-[140px] w-[140px] lg:h-[240px] lg:w-[240px]" src="./img/Layer 2.png" alt="">
-                <h3 class="z-10 text-center lg:text-[44px] lg:leading-[56px] text-[22px] leading-[26px]">
+                <h3 class="z-10 lg:text-start text-center lg:text-[44px] lg:leading-[56px] text-[33px] leading-[48px]">
                     Be in harmony with your religious sentiments!
                 </h3>
             </div>
 
-
-
             <!-- Flower image for bottom right -->
             <img src="./img/rightFlow.png" alt=""
-                class="h-[385px] w-[240px] lg:h-[838px] lg:w-[519px] absolute bottom-0 top-32 lg:-top-16 right-0 w-26 h-26 z-10">
+                class="h-[385px] w-[240px] lg:h-[838px] lg:w-[519px] absolute bottom-0 -top-[200px] lg:-top-16 right-0 z-10">
         </div>
     </section>
 
-<section class="relative">
-    <div class="flex flex-col-reverse lg:flex-row mx-4 lg:mx-32 my-24 lg:gap-44 h-full overflow-hidden">
-        <img class="object-cover p-1 lg:h-[560px] h-80 w-40 lg:w-[250px] mx-auto mt-8 lg:mt-0 rounded-3xl bg-[#BFCBDB]"
-            src="./img/drop your design here.png" alt="">
-        <div class="w-full lg:w-[50%] lg:h-auto flex flex-col justify-center">
-            <h3
-                class="mb-6 font-semibold text-2xl lg:text-[39px] text-heading leading-10 lg:text-start text-center">
-                Traditional scholarship at your fingertips
-            </h3>
 
-            <div class="flex flex-col">
-                <p class="text-text text-sm lg:text-xl">
-                    From the ground up, our app has been infused in traditional scholarship under the guidance of a
-                    Mufti, specialized in the fiqh of women-related Masaail...
-                </p>
-                <div class="bg-[#E3ECFB] px-9 mb-6 h-16 flex items-center justify-end rounded-2xl text-[#75A2E9]">
-                    ذخر المتأهلين والنساء في تعريف الأطهار و الدماء
+    <section class="relative">
+        <div class="flex flex-col-reverse lg:flex-row mx-4 lg:mx-32 my-10 lg:my-24 lg:gap-44 h-full overflow-hidden">
+            <img class="object-cover p-1 lg:h-[560px] h-80 w-40 lg:w-[250px] mx-auto mt-8 lg:mt-0 rounded-3xl bg-[#BFCBDB]"
+                src="./img/drop your design here.png" alt="">
+            <div class="w-full lg:w-[50%] lg:h-auto flex flex-col justify-center">
+                <h3
+                    class="mb-6 font-semibold font-sans text-4xl lg:text-[39px] text-heading leading-10 lg:text-start text-center">
+                    Traditional scholarship at your fingertips
+                </h3>
+
+                <div class="flex flex-col">
+                    <p class="text-text text-sm mb-1 lg:text-xl">
+                        From the ground up, our app has been infused in traditional scholarship under the guidance of a
+                        Mufti, specialized in the fiqh of women-related Masaail...
+                    </p>
+                    <div class="bg-[#E3ECFB] text-[22px] font-bold px-9 mb-6 h-16 flex items-center justify-end rounded-2xl text-[#75A2E9]">
+                        ذخر المتأهلين والنساء في تعريف الأطهار و الدماء
+                    </div>
+                    <p class="text-text mb-1 text-sm lg:text-xl">
+                        As well as its various commentaries, such as 'Allamah Shaami's famous commentary:
+                    </p>
+                    <div class="bg-[#E3ECFB] text-[22px] font-bold px-9 mb-6 h-16 flex items-center justify-end rounded-2xl text-[#75A2E9]">
+                        منهل الواردين من بحار الفيض، على ذخر المتأهلين في مسائل الحيض
+                    </div>
+                    <p class="text-text text-sm lg:text-xl">
+                        These are monumental works in the Hanafi Madhhab, and are the foundational texts taught in
+                        Islamic seminaries around the world.
+                    </p>
                 </div>
-                <p class="text-text text-sm lg:text-xl">
-                    As well as its various commentaries, such as 'Allamah Shaami's famous commentary:
-                </p>
-                <div class="bg-[#E3ECFB] px-9 mb-6 h-16 flex items-center justify-end rounded-2xl text-[#75A2E9]">
-                    منهل الواردين من بحار الفيض، على ذخر المتأهلين في مسائل الحيض
-                </div>
-                <p class="text-text text-sm lg:text-xl">
-                    These are monumental works in the Hanafi Madhhab, and are the foundational texts taught in
-                    Islamic seminaries around the world.
-                </p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="relative z-10">
-    <div class="p-6 lg:mx-32 py-10 flex lg:flex-row items-center flex-col gap-5 lg:gap-14"
-        style="background-image: url('./img/background.png'); background-size: cover; background-position: center;">
-        <div>
-            <img class="h-16 w-16 lg:h-[162px] lg:w-[300px]" src="./img/bannerLogo.png" alt="">
+    <section class="relative z-10">
+        <div class="p-6 lg:mx-32 py-10 flex lg:flex-row items-center flex-col gap-5 lg:gap-14"
+            style="background-image: url('./img/background.png'); background-size: cover; background-position: center;">
+
+            <!-- Overlap for small devices -->
+            <div class="absolute inset-0 lg:mx-32 bg-cover bg-center"
+                style="background-image: url('./img/Mask Group.png');">
+                <div class="absolute lg:rounded-2xl inset-0 bg-[#E3ECFB] opacity-50"></div>
+            </div>
+
+            <div class="relative z-20">
+                <img class="h-16 w-16 lg:h-[162px] lg:w-[220px]" src="./img/bannerLogo.png" alt="">
+            </div>
+
+            <div class="text-center lg:text-start relative z-20">
+                <h4 class="text-heading text-3xl font-semibold mb-3">How can you know that the app is reliable?</h4>
+                <p class="text-text text-sm">You don’t have to take our word for it! Feel free to share a link of your
+                    anonymous calendar with your scholar of choice to check if the app has made the correct
+                    calculations.</p>
+                <button
+                    class="px-7 py-2 lg:px-12 lg:py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-extrabold rounded-3xl text-white mt-3">Try
+                    myhayd app</button>
+            </div>
         </div>
-        <div class="text-center lg:text-start">
-            <h4 class="text-heading text-3xl font-semibold mb-3">How can you know that the app is reliable?</h4>
-            <p class="text-text text-lg">You don’t have to take our word for it! Feel free to share a link of your
-                anonymous calendar with your scholar of choice to check if the app has made the correct
-                calculations.</p>
-            <button
-                class="px-7 py-2 lg:px-12 lg:py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-semibold rounded-3xl text-white mt-3">Try
-                myhayd app</button>
-        </div>
-    </div>
-</section>
+    </section>
+
 
 
     <section class="relative">
         <div class="my-10 lg:my-[100px] flex flex-col lg:flex-row gap-8 lg:gap-[148px] mx-4 lg:mx-[140px] h-full">
             <div class="w-full lg:w-[60%]">
-                <h1 class="text-heading text-center lg:text-start mb-3 text-2xl lg:text-5xl font-bold">Personalized</h1>
-                <p class="text-sm text-text">Our app is perfect for every stage of a Muslim woman's life journey, from
+                <h1 class="text-heading text-center lg:text-start mb-5 lg:mt-10 text-[32px] lg:text-5xl font-bold">Personalized</h1>
+                <p class="text-sm lg:text-xl text-text">Our app is perfect for every stage of a Muslim woman's life
+                    journey, from
                     the first
                     menstruation until menopause. Whether you are just married, a recent convert to Islam, pregnant, or
                     postpartum: each woman’s experience is unique, and our app is designed to reflect that.</p>
-                <p class="text-sm text-text font-bold my-2">Are you a parent guiding your daughter along this journey?
+                <p class="text-sm lg:text-xl text-text font-bold my-2">Are you a parent guiding your daughter along this
+                    journey?
                 </p>
-                <p class="text-sm text-text mb-2">Our app is designed to make this easier for you, with personalized
+                <p class="text-sm lg:text-xl text-[#494E59] mb-4">Our app is designed to make this easier for you, with
+                    personalized
                     features
                     that allow you to stay informed and involved in your daughter's menstrual cycle. You can receive
                     notifications when she inputs new information or if she hasn't been active on the app lately. This
                     will help ensure she is tracking her menstruation and praying at the correct times. You can also be
                     rest assured that your child will never come across ads or sexual content that are common in other
                     period tracking apps.</p>
-                <p class="text-sm text-text">With features tailored to meet your individual needs, this app will be your
+                <p class="text-sm lg:text-xl text-text">With features tailored to meet your individual needs, this app
+                    will be your
                     guide
                     and trusted companion when you need to navigate menstruation anomalies! Say goodbye to generic
                     period trackers that don't consider the unique experiences of Muslim women, and say Marhaba
@@ -188,27 +195,29 @@
             </div>
             <div class="w-full lg:w-[40%] flex h-full">
                 <img src="./img/hello.png" alt=""
-                    class="bg-[#BFCBDB] p-1 rounded-3xl mx-auto h-[380px] lg:h-[580px] object-cover">
+                    class="bg-[#BFCBDB] p-1 rounded-3xl mx-auto h-[380px] z-10 lg:h-[580px] object-cover">
             </div>
         </div>
         <!-- Green flower image at the bottom-right side -->
-        <img src="./img/greenFlower.png" class="absolute right-0 top-[37rem] lg:top-40 bottom-0" alt="">
+        <img src="./img/greenFlower.png" class="absolute -right-8 top-[26rem] lg:top-40 bottom-0" alt="">
     </section>
 
-    <section class="relative bg-[#FAFBFF] py-20">
+    <section class="relative bg-[#FAFBFF] py-10 lg:py-20">
         <div class="mx-4 lg:mx-36">
-            <div class="mb-16 text-center">
+            <div class="mb-8 mt-10 lg:mb-16 text-center">
                 <h3 class="text-heading text-2xl lg:text-5xl mb-5 font-bold">Because you are worth it!</h3>
-                <p class="text-text px-0 lg:px-28">Celebrate the beauty of womanhood with an aesthetically pleasing
+                <p class="text-text text-sm lg:text-[26px] lg:leading-[2rem] px-0 lg:px-28">Celebrate the beauty of
+                    womanhood with an aesthetically
+                    pleasing
                     design that
                     communicates instantly all the information you need to practice upon your religious sentiments!</p>
             </div>
-            <div class="mt-16 gap-x-32 gap-y-16 grid grid-cols-1 lg:grid-cols-2">
+            <div class="mt-16 gap-x-32 gap-y-5 lg:gap-y-16 grid grid-cols-1 lg:grid-cols-2">
                 <div class="flex flex-row lg:flex-col items-center justify-center gap-10 lg:gap-0">
                     <img class="bg-[#BFCBDB] p-1 h-[370px] w-[170px] lg:h-[572px] lg:w-[270px] rounded-3xl"
                         src="./img/item1.png" alt="">
                     <div class="mt-8">
-                        <h1 class="text-heading mb-2 text-sm lg:text-2xl font-bold">Experiencing Hayd (menstruation)
+                        <h1 class="text-heading mb-2 text-lg lg:text-2xl font-bold">Experiencing Hayd (menstruation)
                         </h1>
                         <p class=" lg:text-center text-sm lg:text-base text-text">Experiencing Hayd (menstruation)
                             Behold, a day view of someone who is experiencing her Hayd (menstruation) so she knows that
@@ -219,7 +228,7 @@
                     <img class="bg-[#BFCBDB] p-1 rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
                         src="./img/item2.png" alt="">
                     <div class="mt-8">
-                        <h1 class="text-heading mb-2 text-sm lg:text-2xl font-bold">Experiencing Hayd (menstruation)
+                        <h1 class="text-heading mb-2 text-lg lg:text-2xl font-bold">Experiencing Hayd (menstruation)
                         </h1>
                         <p class="lg:text-center text-sm lg:text-base text-text">Experiencing Hayd (menstruation)
                             Behold, a day view of someone who is experiencing her Hayd (menstruation) so she knows that
@@ -230,7 +239,7 @@
                     <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
                         src="./img/item3.png" alt="">
                     <div class="mt-8">
-                        <h1 class="text-heading mb-2 text-sm lg:text-2xl font-bold">Experiencing Hayd (menstruation)
+                        <h1 class="text-heading mb-2 text-lg lg:text-2xl font-bold">Experiencing Hayd (menstruation)
                         </h1>
                         <p class="lg:text-center text-sm lg:text-base text-text">Experiencing Hayd (menstruation)
                             Behold, a day view of someone who is experiencing her Hayd (menstruation) so she knows that
@@ -241,7 +250,7 @@
                     <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
                         src="./img/item4.png" alt="">
                     <div class="mt-8">
-                        <h1 class="text-heading mb-2 text-sm lg:text-2xl font-bold">Experiencing Hayd (menstruation)
+                        <h1 class="text-heading mb-2 text-lg lg:text-2xl font-bold">Experiencing Hayd (menstruation)
                         </h1>
                         <p class="lg:text-center text-sm lg:text-base text-text">Experiencing Hayd (menstruation)
                             Behold, a day view of someone who is experiencing her Hayd (menstruation) so she knows that
@@ -252,24 +261,8 @@
         </div>
 
         <!-- Bottom-centered image -->
-        <img src="./img/bottomImage.png" alt="" class="absolute -bottom-44 left-1/2 transform -translate-x-1/2">
+        <img src="./img/bottomImage.png" alt="" class="absolute -bottom-56 left-1/2 transform -translate-x-1/2">
     </section>
-
-    <!-- <section class="relative z-10 hidden">
-
-        <div class="relative p-6 lg:mx-32 py-10 flex lg:flex-row items-center flex-col gap-14"
-            style="background-image: url('./img/background.png'); background-size: cover; background-position: center;">
-            <div class="absolute inset-0 bg-[#E3ECFB] opacity-50 z-10"></div>
-            <div class="relative z-20">
-                <h5 class="text-white">How it works</h5>
-                <p class="text-white">Take a look at...</p>
-                <button class="mt-5 px-6 py-2 bg-blue-600 text-white rounded">DOWNLOAD MYHAYD APP</button>
-            </div>
-
-            <div class="relative z-20 bg-[#D9D9D9] h-[345px] w-[584px]"></div>
-        </div>
-    </section> -->
-
 
     <section class="relative bg-white overflow-hidden"> <!-- Add overflow-hidden here -->
         <div class="py-10 lg:py-24 mx-4 lg:mx-36">
@@ -277,8 +270,9 @@
                 <img class="bg-[#BFCBDB] h-[380px] w-[180px] lg:h-[719px] lg:w-[340px] p-1 rounded-3xl"
                     src="./img/phon.png" alt="">
                 <div>
-                    <h1 class="text-2xl lg:text-5xl font-bold mb-7 text-heading">Security as a first class citizen!</h1>
-                    <p class="text-text mb-3">We take your security very seriously. From the early days, our vision was
+                    <h1 class="text-[32px] lg:text-5xl font-bold mb-7 text-heading">Security as a first class citizen!</h1>
+                    <p class="text-text text-xl mb-3">We take your security very seriously. From the early days, our
+                        vision was
                         to
                         make this App safe for our own daughters. For your safety, privacy and security, we have made it
                         a
@@ -309,7 +303,7 @@
         </div>
 
         <!-- Flower image positioned at the bottom left of the screen -->
-        <img src="./img/leftFlower.png" alt="" class="absolute -bottom-64 left-0 z-10"> <!-- Adjusted z-index here -->
+        <img src="./img/leftFlower.png" alt="" class="absolute -bottom-44 left-0 z-10"> <!-- Adjusted z-index here -->
     </section>
 
     <section class="relative">
@@ -319,7 +313,7 @@
             <div class="relative flex flex-col items-center lg:flex-row lg:gap-14 py-10 px-4 lg:px-36">
                 <img class="w-14 h-11 lg:w-48 lg:h-44" src="./img/dimond.png" alt="">
                 <div class="flex flex-col gap-4">
-                    <h3 class="text-base lg:text-3xl font-semibold text-black">And so much more!</h3>
+                    <h3 class="text-2xl text-center lg:text-start lg:text-3xl font-semibold text-heading">And so much more!</h3>
                     <div class="flex gap-2 items-center">
                         <img class="h-4 w-4 lg:h-7 lg:w-7" src="./img/icon.png" alt="">
                         <p class="text-sm lg:text-lg text-black">Ovulation tracking to optimize your chances of getting
@@ -334,7 +328,7 @@
                         <img class="h-4 w-4 lg:h-7 lg:w-7" src="./img/icon.png" alt="">
                         <p class="text-sm lg:text-lg text-black">Keep track of your mood</p>
                     </div>
-                    <div>
+                    <div class="mx-auto">
                         <button
                             class="px-12 py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-semibold rounded-3xl text-white mt-3">Try
                             myhayd app</button>
@@ -349,14 +343,14 @@
     <footer class="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-8">
         <div class="mx-3 lg:mx-36 block justify-between lg:flex items-center">
             <div class="flex w-full lg:w-1/2 flex-col">
-                <div class="flex  items-center mb-3 space-x-2">
+                <div class="flex  items-center mb-5 space-x-4">
                     <img src="./img/logo.png" alt="Logo" class="w-[42px] h-[42px]">
                     <span class="text-lg font-bold">MyHayd App</span>
                 </div>
 
             </div>
 
-            <div class="flex justify-between w-full lg:w-1/2 space-x-16">
+            <div class="flex gap-14 lg:gap-0 lg:justify-between w-full lg:w-1/2 space-x-16">
                 <ul class="flex flex-col space-y-5 text-sm">
                     <li>About Us</li>
                     <li>Careers</li>

@@ -11,7 +11,7 @@ module.exports = {
         contentTextColor:"#75A2E9"
       },
       fontFamily: {
-        sans: ['Nunito Sans', 'sans-serif'], // Override the default sans font
+        sans: ['Nunito Sans', 'sans-serif'],
       },
     },
   },
