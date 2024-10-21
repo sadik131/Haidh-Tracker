@@ -11,7 +11,9 @@ module.exports = {
         contentTextColor:"#75A2E9"
       },
       fontFamily: {
-        sans: ['Nunito Sans', 'sans-serif'],
+        sans: ['Noto Serif SC', 'serif'],
+        nunito: ["Nunito Sans", 'sans-serif'],
+        
       },
     },
   },
