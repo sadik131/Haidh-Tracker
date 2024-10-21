@@ -15,10 +15,10 @@ https://drive.google.com/file/d/1epo_SAbz_e8C9Dx9R_HcsQVlU1F7mBsI/view?usp=shari
 
 
 Desktop page2
-https://drive.google.com/file/d/1RhnP-0hhfPHhcnOP5-6h__UNZisM2lPS/view?usp=sharing
+https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
 
 Mobile page2
-https://drive.google.com/file/d/1J2TzBy9Y41sFLVHz16AWgHkrBzF14ehO/view?usp=sharing
+https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
 
 ## Documentation
 
