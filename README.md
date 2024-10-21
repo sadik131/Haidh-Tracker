@@ -18,7 +18,7 @@ Desktop page2
 https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
 
 Mobile page2
-https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
+https://drive.google.com/file/d/17R5wv-G3ElkYQXLJUSd5y0jb_ZZOUfEu/view?usp=sharing
 
 ## Documentation
 
