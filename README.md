@@ -14,10 +14,10 @@ Mobile page1
 https://drive.google.com/file/d/1EYz52iELvp1TNQA8jeIzpIPxqOtm9MSa/view?usp=sharing
 
 Desktop page2
-https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
+https://drive.google.com/file/d/1OHWD2Pmh6huHEErSYp9cyIADYiBbyDqA/view?usp=sharing
 
 Mobile page2
-https://drive.google.com/file/d/17R5wv-G3ElkYQXLJUSd5y0jb_ZZOUfEu/view?usp=sharing
+https://drive.google.com/file/d/1-EzeiWWj5rtwfwL-Y_xKViHnw0bZ9kzD/view?usp=sharing
 
 ## Documentation
 
