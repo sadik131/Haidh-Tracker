@@ -1,29 +1,34 @@
 
-# HAIDH TRACKER
+# Hotel management
 
 A brief description of what this project does and who it's for
 
-https://drive.google.com/file/d/1v_qHBXLK8KvA84OKe_PSs_2ByA9wZPBa/view?usp=sharing
+
 ## PDF of website
 
-
 Desktop page1
-https://drive.google.com/file/d/1r5IZ6aKMzE75r1QGVO83vADpLwcE4q0L/view?usp=sharing
+https://drive.google.com/file/d/13Ca7Xy1DKkp32XNJsdPi1IIx3OnNSdzE/view?usp=sharing
 
-<!-- git -->
-https://drive.google.com/file/d/1-WNA-jC7hJ4e8t2m2epOdoj7R7Na2JFj/view?usp=sharing
-https://drive.google.com/file/d/1r5IZ6aKMzE75r1QGVO83vADpLwcE4q0L/view?usp=sharing
 Mobile page1
-https://drive.google.com/file/d/1EYz52iELvp1TNQA8jeIzpIPxqOtm9MSa/view?usp=sharing
 
+## Installation
 
-Desktop page2
-https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
+This is a simple website created using HTML and CSS. Follow the instructions below to clone, install, and run the project.
 
-Mobile page2
-https://drive.google.com/file/d/17R5wv-G3ElkYQXLJUSd5y0jb_ZZOUfEu/view?usp=sharing
+ 1. clone the repository from a terminal `git@github.com:sadik131/Haidh-Tracker.git`
+ 2. naviage to the project directory  `cd Haidh-Tracker`
+ 3. install project `npm start`
 
-## Documentation
+## Features
 
-[Documentation](https://linktodocumentation)
+* Responsive design with Tailwind CSS
 
+* remix icons for visual enhancements
+
+* Clean, minimalistic layout and structure
+
+## Technologies Used
+
+* Tailwind CSS: For utility-first styling and responsiveness
+* HTML: The foundational markup of the application
+* remix: Used for icons
