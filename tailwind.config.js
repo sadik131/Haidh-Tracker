@@ -4,11 +4,14 @@ module.exports = {
   theme: {
 
     container: {
-      padding: {
-        DEFAULT: "0px",
+      center: true, // This centers the container by default on all screen sizes
+      padding: '0px', // Default padding is set to 0
+      screens: {
+        'lg': '1366px', // Custom breakpoint for screens that are 1366px or larger
       },
     },
     extend: {
+     
       colors: {
         heading: "#494E59",
         text: "#6A7989",

@@ -21,7 +21,7 @@
     <!-- top hero section -->
     <section>
         <!-- navbar -->
-        <nav class="flex items-center absolute z-40 w-full h-[74px] px-8 justify-between">
+        <nav class="flex items-center absolute z-40 w-full h-[74px] px-4 lg:px-8 justify-between">
             <!-- logo -->
             <div class="flex gap-4 items-center">
                 <img src="./img/logo.png" alt="">
@@ -55,52 +55,54 @@
         </nav>
 
         <!-- hero section -->
-        <div class="relative flex flex-col px-4 pt-20 py-9 lg:pt-20px lg:flex-row items-center gap-5 lg:gap-10 justify-between lg:px-36 lg:pb-40 bg-cover bg-center"
+        <div class="relative  px-4 lg:px-0 py-28 lg:pt-20 lg:pb-40 bg-cover bg-center"
             style="background-image: linear-gradient(to top, #D781EF, #F38D94); background-size: cover; background-position: center; background-repeat: no-repeat;">
 
             <!-- Pseudo-element for background image -->
             <div class="absolute inset-0 bg-cover bg-center z-0 opacity-50"
                 style="background-image: url('./img/Group 24.png');"></div>
 
-            <!-- left Content -->
-            <div class="relative z-10 text-white flex flex-col gap-5">
-                <h1 class="text-[42px] leading-[3rem] lg:text-5xl font-sans font-bold text-center lg:text-start">
-                    Understand your Habit at first glance</h1>
-                <p class="font-nunito text-[22px] leading-[1.5rem] text-center lg:text-start  lg:text-2xl">First
-                    ever
-                    Islamic period
-                    tracking app <br>
-                    personalised for muslim women
-                </p>
-                <div class="mx-auto lg:mx-0">
-                    <button
-                        class="px-12 py-4 bg-gradient-to-b from-[#75A2E9] to-[#5C42FC] uppercase font-bold rounded-3xl text-white mt-3">Try
-                        myhayd
-                        app</button>
+            <div class="flex flex-col container mx-auto px-4 lg:px-36 lg:pt-5 lg:flex-row items-center gap-5 lg:gap-10 justify-between">
+                <!-- left Content -->
+                <div class="relative z-10 text-white flex flex-col gap-5">
+                    <h1 class="text-[42px] leading-[3rem] lg:text-5xl font-sans font-bold text-center lg:text-start">
+                        Understand your Habit at first glance</h1>
+                    <p class="font-nunito text-[22px] leading-[1.5rem] text-center lg:text-start  lg:text-2xl">First
+                        ever
+                        Islamic period
+                        tracking app <br>
+                        personalised for muslim women
+                    </p>
+                    <div class="mx-auto lg:mx-0">
+                        <button
+                            class="px-12 py-4 bg-gradient-to-b from-[#75A2E9] to-[#5C42FC] uppercase font-bold rounded-3xl text-white mt-3">Try
+                            myhayd
+                            app</button>
+                    </div>
                 </div>
-            </div>
 
-            <!-- right content -->
-            <div class="relative lg:px-[98px] z-10">
-                <!-- top share button -->
-                <div class="shadow-md hidden lg:block rounded-lg bg-white pl-5 pr-2 left-[75px] absolute">
-                    <h6 class="text-xl text-[#31353A] pt-[15px] pb-2 font-bold">Share via</h6>
-                    <div class="flex gap-4">
-                        <img class="h-9 w-9 object-cover" src="./img/facebook (1).png" alt="">
-                        <img class="h-9 w-9 object-cover" src="./img/instagram.png" alt="">
-                        <img class="h-9 w-9 object-cover" src="./img/twitter.png" alt="">
-                        <img class="h-9 w-9 object-cover" src="./img/whatsapp.png" alt="">
+                <!-- right content -->
+                <div class="relative lg:px-[90px] z-10">
+                    <!-- top share button -->
+                    <div class="shadow-md hidden lg:block rounded-lg bg-white pl-5 pr-2 left-[70px] absolute">
+                        <h6 class="text-xl text-[#31353A] pt-[15px] pb-2 font-bold">Share via</h6>
+                        <div class="flex gap-4">
+                            <img class="h-9 w-9 object-cover" src="./img/facebook (1).png" alt="">
+                            <img class="h-9 w-9 object-cover" src="./img/instagram.png" alt="">
+                            <img class="h-9 w-9 object-cover" src="./img/twitter.png" alt="">
+                            <img class="h-9 w-9 object-cover" src="./img/whatsapp.png" alt="">
+                        </div>
+                        <h6 class="text-xl text-[#31353A] pt-[15px] pb-2 font-bold">or copy link</h6>
+                        <div class="flex gap-4 pb-[15px]">
+                            <input class="px-3 py-3 w-44  shadow-xl rounded-lg" type="text" placeholder="link">
+                            <button class="px-[30px] rounded-3xl text-white bg-[#F47F64]">Copy</button>
+                        </div>
                     </div>
-                    <h6 class="text-xl text-[#31353A] pt-[15px] pb-2 font-bold">or copy link</h6>
-                    <div class="flex gap-4 pb-[15px]">
-                        <input class="px-3 py-3 w-44  shadow-xl rounded-lg" type="text" placeholder="link">
-                        <button class="px-[30px] rounded-3xl text-white bg-[#F47F64]">Copy</button>
+                    <!-- hero img -->
+                    <div class="h-[380px] w-[180px] lg:h-[641px] lg:w-[290px]">
+                        <img class="object-cover h-auto w-auto p-1 rounded-3xl mt-9 lg:mt-[116px] bg-[#BFCBDB]"
+                            src="./img/hero.png" alt="">
                     </div>
-                </div>
-                <!-- hero img -->
-                <div class="lg:h-[641px] lg:w-[290px]">
-                    <img class="object-cover h-auto w-auto p-1 rounded-3xl mt-[116px] bg-[#BFCBDB]" src="./img/hero.png"
-                        alt="">
                 </div>
             </div>
         </div>
@@ -118,12 +120,14 @@
                 <img src="./img/flower.png" alt="" class="h-auto w-auto">
             </div>
             <!-- center text -->
-            <div class="w-full lg:w-[70%] mx-auto flex flex-col lg:flex-row items-center lg:gap-20 relative z-10">
-                <img class="z-10 h-[140px] w-[140px] lg:h-[240px] lg:w-[240px]" src="./img/Layer 2.png" alt="">
-                <h3
-                    class="z-10 lg:text-start font-nunito text-center lg:text-[44px] text-[#31353A] lg:leading-[56px] text-[33px] leading-[48px]">
-                    Be in harmony with your religious sentiments!
-                </h3>
+            <div class="container mx-auto">
+                <div class="w-full lg:w-[70%] mx-auto flex flex-col lg:flex-row items-center lg:gap-20 relative z-10">
+                    <img class="z-10 h-[140px] w-[140px] lg:h-[240px] lg:w-[240px]" src="./img/Layer 2.png" alt="">
+                    <h3
+                        class="z-10 lg:text-start font-nunito text-center lg:text-[44px] text-[#31353A] lg:leading-[56px] text-[33px] leading-[48px]">
+                        Be in harmony with your religious sentiments!
+                    </h3>
+                </div>
             </div>
 
         </div>
@@ -135,9 +139,9 @@
     </section>
 
     <!-- 3rd section -->
-    <section class="relative bg-white container mx-auto lg:overflow-hidden">
+    <section class="relative bg-white lg:overflow-hidden">
         <div
-            class="lg:mx-36 flex flex-col-reverse lg:flex-row items-stretch py-10 lg:py-24 lg:gap-44 h-full overflow-hidden">
+            class="container lg:px-36 px-4 mx-auto flex flex-col-reverse lg:flex-row items-center lg:items-stretch py-10 lg:py-24 lg:gap-44 h-full overflow-hidden">
             <!-- left side -->
             <div class="lg:h-[548px] h-80 w-40 lg:w-[270px]">
                 <img class="object-cover p-1 h-auto w-auto mx-auto mt-8 lg:mt-0 rounded-3xl bg-[#BFCBDB]"
@@ -158,14 +162,14 @@
                         Birgivi on the subject matter:
                     </p>
                     <div
-                        class="bg-[#E3ECFB] text-[22px] font-extrabold gap-4 px-9 py-4 mb-6 flex items-center justify-end rounded-2xl text-[#75A2E9]">
+                        class="bg-[#E3ECFB] text-[22px] font-extrabold gap-4 px-9 py-4 mb-6 text-right rounded-2xl text-[#75A2E9]">
                         ذخر المتأهلين والنساء في تعريف الأطهار و الدماء
                     </div>
                     <p class="font-nunito font-medium text-text mb-5 text-sm lg:text-xl">
                         As well as its various commentaries, such as 'Allamah Shaami's famous commentary:
                     </p>
                     <div
-                        class="bg-[#E3ECFB] text-[22px] font-extrabold px-9 py-4 mb-6 flex items-center justify-end rounded-2xl text-[#75A2E9]">
+                        class="bg-[#E3ECFB] text-[22px] font-extrabold px-9 py-4 mb-6 text-right rounded-2xl text-[#75A2E9]">
                         منهل الواردين من بحار الفيض، على ذخر المتأهلين في مسائل الحيض
                     </div>
                     <p class="font-nunito font-medium text-text text-sm lg:text-xl">
@@ -178,83 +182,99 @@
     </section>
 
     <!-- section 4 -->
-    <section class="relative container mx-auto z-10">
-        <div class="p-6 py-10 lg:mx-36 flex lg:flex-row flex-col gap-5 lg:gap-14"
-            style="background-image: url('./img/background.png'); background-size: cover; background-position: center;">
-
-            <!-- Overlap for small devices -->
-            <div class="absolute inset-0 lg:mx-36 bg-cover bg-center"
-                style="background-image: url('./img/Mask Group.png');">
-                <div class="absolute lg:rounded-3xl inset-0 bg-[#E3ECFB] opacity-50"></div>
-            </div>
-
-            <!-- left side img -->
-            <div class="relative z-20">
-                <img class="h-16 w-16 lg:h-[162px] lg:w-[162px]" src="./img/bannerLogo.png" alt="">
-            </div>
-            <!-- right side content -->
-            <div class="text-center lg:text-start relative z-20">
-                <h4 class="text-heading text-[35px] font-bold mb-3">How can you know that the app is reliable?</h4>
-                <p class="font-nunito text-text text-sm">You don’t have to take our word for it! Feel free to share a
-                    link of your
-                    anonymous calendar with your scholar of choice to check if the app has made the correct
-                    calculations.</p>
-                <button
-                    class="px-7 py-2 lg:px-12 lg:py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-bold rounded-3xl text-white mt-3">Try
-                    myhayd app</button>
+    <section class="">
+        <div class="container relative z-10 mx-auto pt-10 lg:px-36">
+            
+            <!-- overlap layer -->
+            <div class="relative flex lg:flex-row flex-col items-center  gap-5 lg:gap-14 py-9 px-8 lg:rounded-3xl overflow-hidden"
+                style="background-image: url('./img/background.png'); background-size: cover; background-position: center;">
+                
+                <!-- Overlap for small devices -->
+                <div class="absolute inset-0 w-full h-full bg-cover bg-center"
+                    style="background-image: url('./img/Mask Group.png');">
+                    <div class="absolute inset-0 bg-[#E3ECFB] opacity-50 lg:rounded-3xl"></div>
+                </div>
+        
+                <!-- Left side image -->
+                <div class="relative z-20">
+                    <img class="h-16 w-16 lg:h-[162px] lg:w-[210px]" src="./img/bannerLogo.png" alt="">
+                </div>
+        
+                <!-- Right side content -->
+                <div class="text-center lg:text-start relative z-20">
+                    <h4 class="text-heading text-[35px] font-bold mb-3">How can you know that the app is reliable?</h4>
+                    <p class="font-nunito text-text text-sm">You don’t have to take our word for it! Feel free to share a
+                        link of your anonymous calendar with your scholar of choice to check if the app has made the correct
+                        calculations.</p>
+                    <button
+                        class="px-7 py-2 lg:px-12 lg:py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-bold rounded-3xl text-white mt-3">Try
+                        myhayd app</button>
+                </div>
             </div>
         </div>
     </section>
-
+    
 
     <!-- section 5 -->
     <section class="relative">
-        <div class="my-10 lg:my-[100px] flex flex-col items-stretch lg:flex-row gap-8 lg:gap-[148px] mx-4 lg:mx-[140px] h-full">
+        <div
+            class="my-10 container lg:px-36 p-4 lg:mx-auto lg:my-[100px] flex flex-col items-center lg:flex-row gap-8 lg:gap-[148px] sm:mx-4 h-full">
             <!-- Left text content -->
             <div class="w-full lg:w-[60%] flex flex-col justify-center h-full">
-                <h1 class="text-heading font-sans text-center lg:text-start mb-5 lg:mt-10 text-[32px] lg:text-5xl font-bold">
+                <h1
+                    class="text-heading font-sans text-center lg:text-start mb-5 lg:mt-10 text-[32px] lg:text-5xl font-bold">
                     Personalized
                 </h1>
                 <p class="font-nunito text-lg font-medium lg:text-xl text-text">
-                    Our app is perfect for every stage of a Muslim woman's life journey, from the first menstruation until menopause. Whether you are just married, a recent convert to Islam, pregnant, or postpartum: each woman’s experience is unique, and our app is designed to reflect that.
+                    Our app is perfect for every stage of a Muslim woman's life journey, from the first menstruation
+                    until menopause. Whether you are just married, a recent convert to Islam, pregnant, or postpartum:
+                    each woman’s experience is unique, and our app is designed to reflect that.
                 </p>
                 <p class="font-nunito text-lg lg:text-xl text-text font-bold my-2">
                     Are you a parent guiding your daughter along this journey?
                 </p>
                 <p class="font-nunito text-lg font-medium lg:text-xl text-text mb-4">
-                    Our app is designed to make this easier for you, with personalized features that allow you to stay informed and involved in your daughter's menstrual cycle. You can receive notifications when she inputs new information or if she hasn't been active on the app lately. This will help ensure she is tracking her menstruation and praying at the correct times. You can also be rest assured that your child will never come across ads or sexual content that are common in other period tracking apps.
+                    Our app is designed to make this easier for you, with personalized features that allow you to stay
+                    informed and involved in your daughter's menstrual cycle. You can receive notifications when she
+                    inputs new information or if she hasn't been active on the app lately. This will help ensure she is
+                    tracking her menstruation and praying at the correct times. You can also be rest assured that your
+                    child will never come across ads or sexual content that are common in other period tracking apps.
                 </p>
                 <p class="font-nunito text-lg font-medium lg:text-xl text-text">
-                    With features tailored to meet your individual needs, this app will be your guide and trusted companion when you need to navigate menstruation anomalies! Say goodbye to generic period trackers that don't consider the unique experiences of Muslim women, and say Marhaba (welcome) to a personalized tracker that is just right for you.
+                    With features tailored to meet your individual needs, this app will be your guide and trusted
+                    companion when you need to navigate menstruation anomalies! Say goodbye to generic period trackers
+                    that don't consider the unique experiences of Muslim women, and say Marhaba (welcome) to a
+                    personalized tracker that is just right for you.
                 </p>
             </div>
-    
+
             <!-- Right image -->
-            <div class="w-full lg:w-[40%] flex lg:h-[620px] h-full ">
+            <div class="h-[380px] w-[180px] lg:w-[40%] flex lg:h-[620px]  ">
                 <img src="./img/hello.png" alt="" class="bg-[#BFCBDB] p-1 rounded-3xl mx-auto z-10 h-full object-cover">
             </div>
         </div>
-    
+
         <!-- Green flower image at the bottom-right side -->
-        <img src="./img/greenFlower.png" class="hidden lg:flex h-[470px] w-[260px] absolute right-0 top-[26rem] lg:top-40 bottom-0" alt="">
+        <img src="./img/greenFlower.png"
+            class="hidden lg:flex h-[470px] w-[260px] absolute right-0 top-[26rem] lg:top-[28rem] bottom-0" alt="">
     </section>
 
-    
-    <section class="relative container mx-auto bg-[#FAFBFF] py-10 lg:py-20">
-        <div class="mx-4 lg:mx-36">
-            <div class="mb-8 mt-10 lg:mb-16 text-center">
-                <h3 class="text-heading text-2xl font-sans lg:text-5xl mb-5 font-extrabold">Because you are worth it!
-                </h3>
-                <p class="font-nunito text-text text-sm lg:text-[26px] lg:leading-[2rem] px-0 lg:px-28">Celebrate the
-                    beauty of
-                    womanhood with an aesthetically
-                    pleasing
-                    design that
-                    communicates instantly all the information you need to practice upon your religious sentiments!</p>
-            </div>
+
+    <section class="relative bg-[#FAFBFF] py-10 lg:py-20">
+        <div class="mb-8 lg:mt-10 lg:mb-16 text-center">
+            <h3 class="text-heading text-2xl font-sans lg:text-5xl mb-5 font-extrabold">Because you are worth it!
+            </h3>
+            <p class="font-nunito text-text text-sm lg:text-[25px] lg:leading-[36px] px-0 lg:px-28">Celebrate the
+                beauty of
+                womanhood with an aesthetically
+                pleasing
+                design that
+                communicates instantly all the information you need to practice upon your religious sentiments!</p>
+        </div>
+        <div class="container mx-auto px-4 lg:px-36">
             <div class="mt-16 gap-x-32 gap-y-5 lg:gap-y-16 grid grid-cols-1 lg:grid-cols-2">
                 <div class="flex flex-row lg:flex-col items-center justify-center gap-10 lg:gap-0">
-                    <img class="bg-[#BFCBDB] p-1 h-[370px] w-[170px] lg:h-[572px] lg:w-[270px] rounded-3xl"
+                    <img class="bg-[#BFCBDB] p-1 h-[230px] w-[105px] lg:h-[542px] lg:w-[256px] rounded-3xl"
                         src="./img/item1.png" alt="">
                     <div class="mt-8">
                         <h1 class="text-heading mb-2 lg:text-center text-start text-lg lg:text-2xl font-bold">
@@ -267,7 +287,7 @@
                     </div>
                 </div>
                 <div class="flex lg:flex-col flex-row-reverse  items-center justify-center gap-10 lg:gap-0">
-                    <img class="bg-[#BFCBDB] p-1 rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
+                    <img class="bg-[#BFCBDB] p-1 rounded-3xl h-[230px] w-[105px] lg:h-[542px] lg:w-[256px]"
                         src="./img/item2.png" alt="">
                     <div class="mt-8">
                         <h1 class="text-heading mb-2 lg:text-center text-start text-lg lg:text-2xl font-bold">
@@ -280,7 +300,7 @@
                     </div>
                 </div>
                 <div class="flex  lg:flex-col items-center justify-center gap-10 lg:gap-0">
-                    <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
+                    <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[230px] w-[105px] lg:h-[542px] lg:w-[256px]"
                         src="./img/item3.png" alt="">
                     <div class="mt-8">
                         <h1 class="text-heading mb-2 lg:text-center text-start text-lg lg:text-2xl font-bold">
@@ -293,7 +313,7 @@
                     </div>
                 </div>
                 <div class="flex flex-row-reverse lg:flex-col items-center justify-center gap-10 lg:gap-0">
-                    <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[370px] w-[170px] lg:h-[572px] lg:w-[270px]"
+                    <img class="bg-[#BFCBDB] p-1  rounded-3xl h-[230px] w-[105px] lg:h-[542px] lg:w-[256px]"
                         src="./img/item4.png" alt="">
                     <div class="mt-8">
                         <h1 class="text-heading mb-2 lg:text-center text-start text-lg lg:text-2xl font-bold">
@@ -314,7 +334,7 @@
     </section>
 
     <section class="relative z-10">
-        <div class="p-6 lg:mx-32  py-10 flex lg:flex-row items-center justify-between flex-col gap-5 lg:gap-14"
+        <div class="p-6  py-10 "
             style="background-color: #FAFBFF; background-image: url('./img/background.png'); background-size: cover; background-position: center;">
 
             <!-- Overlap for small devices -->
@@ -324,27 +344,26 @@
                 <div class="absolute lg:rounded-3xl inset-0 bg-[#E3ECFB] opacity-40"></div>
             </div>
 
-
-
-            <div class="text-center lg:text-start relative z-20">
-                <h3 class="text-3xl text-heading font-bold">How it works</h3>
-                <p class="font-nunito font-medium text-text">Take a look at...</p>
-                <button
-                    class="px-12 py-4 bg-gradient-to-bl  from-[#FC7D7B] to-[#8E78FF] uppercase font-semibold rounded-3xl text-white mt-5">Download
-                    my app
-                </button>
+            <div class="container mx-auto flex lg:flex-row items-center justify-between flex-col gap-5 lg:gap-14 lg:px-32">
+                <div class="text-center lg:text-start relative z-20">
+                    <h3 class="text-3xl text-heading font-bold">How it works</h3>
+                    <p class="font-nunito font-medium text-text">Take a look at...</p>
+                    <button
+                        class="px-12 py-4 bg-gradient-to-bl  from-[#FC7D7B] to-[#8E78FF] uppercase font-semibold rounded-3xl text-white mt-5">Download
+                        my app
+                    </button>
+                </div>
+                <div class="z-10 w-[340px] h-36 lg:w-[583px] lg:h-[345px] bg-[#D9D9D9]"></div>
             </div>
-            <div class="z-10 w-[340px] h-36 lg:w-[583px] lg:h-[345px] bg-[#D9D9D9]"></div>
         </div>
     </section>
 
-
-    <section class="relative bg-white container mx-auto overflow-hidden">
-        <div class="py-10 lg:py-24 mx-4 lg:mx-36">
+    <section class="relative bg-white overflow-hidden">
+        <div class="container px-4 lg:px-28 mx-auto py-10 lg:py-24 ">
             <div class="flex items-center flex-col-reverse lg:flex-row gap-8 lg:gap-44">
-                <img class="bg-[#BFCBDB] h-[380px] w-[180px] lg:h-[719px] lg:w-[340px] p-1 rounded-3xl"
+                <img class="bg-[#BFCBDB] h-[370px] w-[170px] lg:h-[719px] lg:w-[340px] p-1 rounded-3xl"
                     src="./img/phon.png" alt="">
-                <div>
+                <div class="w-full lg:w-[60%]">
                     <h1 class="text-[32px] lg:text-5xl font-sans font-bold mb-7 text-heading">Security as a first class
                         citizen!
                     </h1>
@@ -388,7 +407,8 @@
         <div class="bg-cover bg-center relative" style="background-image: url('./img/Mask Group.png');">
             <div class="absolute inset-0 bg-[#E3ECFB] opacity-40"></div>
 
-            <div class="relative container mx-auto flex flex-col items-center lg:flex-row lg:gap-14 py-10 px-4 lg:px-36">
+            <div
+                class="relative container mx-auto flex flex-col items-center lg:flex-row lg:gap-14 py-10 px-4 lg:px-36">
                 <img class="w-14 h-11 lg:w-48 lg:h-44" src="./img/dimond.png" alt="">
                 <div class="flex flex-col gap-4">
                     <h3 class="text-2xl text-center lg:text-start lg:text-3xl font-bold text-heading">And so much
@@ -409,7 +429,7 @@
                         <img class="h-4 w-4 lg:h-7  lg:w-7" src="./img/icon.png" alt="">
                         <p class="font-nunito text-xl lg:text-lg text-bgColor">Keep track of your mood</p>
                     </div>
-                    <div class="mx-auto">
+                    <div class="mx-auto lg:mx-0">
                         <button
                             class="px-12  py-4 bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] uppercase font-bold rounded-3xl text-white mt-3">Try
                             myhayd app</button>
@@ -421,8 +441,8 @@
 
 
 
-    <footer class="bg-gradient-to-b from-[#75A2E9] to-[#5C42FC] text-white py-8">
-        <div class="mx-4 lg:mx-36 block justify-between lg:flex items-center">
+    <footer class="bg-gradient-to-b from-[#75A2E9] to-[#5b42fc94] text-white py-8">
+        <div class="px-4 container mx-auto lg:px-36 block justify-between lg:flex items-center">
             <div class="flex w-full lg:w-1/2 flex-col">
                 <div class="flex  items-center mb-5 space-x-4">
                     <img src="./img/logo.png" alt="Logo" class="w-[42px] h-[42px]">
@@ -446,7 +466,7 @@
                 </ul>
             </div>
         </div>
-        <div class="mx-0 mt-5 px-3 lg:mx-36 flex items-center gap-[53px]">
+        <div class="mx-auto container mt-5  px-3 lg:px-36 flex items-center gap-[53px]">
             <p class="font-nunito text-[13px]">© 2023 MyHayd App, All Rights Reserved.</p>
             <span>|</span>
             <p class="font-nunito text-[13px]">Privacy Policy</p>
