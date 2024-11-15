@@ -1,17 +1,17 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}", "./*.{html,js}"],
   theme: {
-
     container: {
-      center: true, // This centers the container by default on all screen sizes
-      padding: '0px', // Default padding is set to 0
+      center: true,
+      padding: '0px',
       screens: {
-        'lg': '1366px', // Custom breakpoint for screens that are 1366px or larger
+        'lg': '1366px',
       },
     },
     extend: {
-     
+      borderImage: {
+        'gradient-to-r': 'linear-gradient(to right, #FC7D7B, #8E78FF)',
+      },
       colors: {
         heading: "#494E59",
         text: "#6A7989",
@@ -33,6 +33,16 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.gradient-border': {
+          borderWidth: '2px',
+          borderStyle: 'solid',
+          borderRadius: '1.875rem',  // Equivalent to rounded-3xl (30px)
+          borderImage: 'linear-gradient(to right, #FC7D7B, #8E78FF) 1',
+        },
+      });
+    },
+  ],
 }
-

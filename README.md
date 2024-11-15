@@ -8,7 +8,7 @@ A brief description of what this project does and who it's for
 
 page1: https://drive.google.com/file/d/16leBCOIsBCf8e1NWwu3g6YZWFWIfiwLC/view?usp=sharing
 
-Mobile page1
+page2: https://drive.google.com/file/d/1cf7NQRaqeXMhAYhS6qBtqhtsl-Eac377/view?usp=sharing
 
 ## Installation
 

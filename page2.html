@@ -12,7 +12,8 @@
     <nav class="flex items-center bg-white px-8 py-2 justify-between">
         <div class="flex gap-4 items-center">
             <img src="./img/logo.png" alt="">
-            <h6 class="bg-gradient-to-t from-[#FC7D7B] to-[#8E78FF] bg-clip-text text-transparent text-lg font-medium ">
+            <h6
+                class="bg-gradient-to-tr from-[#FC7D7B] to-[#8E78FF] bg-clip-text text-transparent text-lg font-medium ">
                 MyHayd App</h6>
         </div>
         <div class="hidden lg:flex text-text items-center gap-10">
@@ -30,24 +31,27 @@
                 <i
                     class="fa-regular fa-circle-question text-2xl font-semibold bg-gradient-to-t from-[#FC7D7B] to-[#8E78FF] bg-clip-text text-transparent inline-block"></i>
             </button>
+
             <button
-                class="relative pl-4 pr-6 font-semibold flex items-center gap-3 text-sm py-2 rounded-3xl bg-white before:absolute before:inset-0 before:rounded-3xl before:p-[1px] before:bg-gradient-to-r before:from-[#FC7D7B] before:to-[#8E78FF] before:z-[-1]">
+                class="relative pl-4 pr-6 font-semibold flex items-center gap-3 text-sm py-2 rounded-3xl bg-white border-2 before:absolute before:inset-0 before:rounded-3xl before:p-[1px] before:bg-gradient-to-r before:from-[#FC7D7B] before:to-[#8E78FF] before:z-[-1]">
                 <img class="w-[18px] h-[14px] mr-2" src="./img/colorShare.png" alt="Share Icon">
                 <span class="bg-gradient-to-t from-[#FC7D7B] to-[#8E78FF] bg-clip-text text-transparent">SHARE</span>
             </button>
+
             <button
                 class="px-6 py-2 bg-white uppercase font-semibold bg-gradient-to-bl from-[#FC7D7B] to-[#8E78FF] rounded-3xl text-white ">Try
                 myhayd
                 app</button>
         </div>
-        <div class="flex  gap-5 lg:hidden">
-            <img class="w-5 h-5" src="./img/share.png" alt="">
-            <img class="w-5 h-5 text-text" src="./img/Menu.png" alt="">
+        <div class="flex lg:hidden gap-5">
+            <img class="w-5 h-5 mr-2" src="./img/colorShare.png" alt="Share Icon">
+            <img class="w-5 h-5 mr-2" src="./img/Union.png" alt="Share Icon">
         </div>
+
     </nav>
 
-    <section class="relative pt-10">
-        <div class="py-24 relative overflow-visible">
+    <section class="relative">
+        <div class="py-16 relative overflow-hidden lg:overflow-visible">
             <!-- Overlay -->
             <div class="absolute inset-0 opacity-10 z-0"></div>
 
@@ -66,17 +70,18 @@
 
             <!-- Flower image for bottom right (section 1 only) -->
             <img src="./img/rightFlow.png" alt=""
-                class="h-[385px] w-[240px] lg:h-[640px] lg:w-[495px] absolute bottom-0 -top-12 lg:bottom-[0px] lg:right-0 -right-[45px] z-10">
+                class="h-[385px] w-[240px] lg:h-[640px] lg:w-[495px] absolute bottom-0 lg:-top-12 lg:bottom-[0px] lg:right-0 -right-[45px] z-10">
         </div>
     </section>
     <!-- section 2  -->
     <section class="w-full mb-5 lg:mb-10 bg-[#FAFBFF]">
         <div class="container mx-auto">
-            <div class="w-full lg:w-[50%] py-5 lg:pb-10 px-4  lg:pt-10 mx-auto ">
+            <div class="w-full lg:w-full lg:px-[340px] py-5 lg:pb-10 px-4  lg:pt-10 mx-auto ">
                 <h3 class="text-2xl mb-3 lg:mb-6 lg:text-[40px] font-nunito  font-semibold text-heading">Content</h3>
                 <div class="flex gap-5 mb-3 items-center">
                     <img class="h-4 w-4 lg:h-7 lg:w-7" src="./img/Group.png" alt="">
-                    <p class="font-nunito text-sm lg:text-lg  text-contentTextColor underline">Exposition of the book's
+                    <p class="font-nunito font-normal text-sm lg:text-lg  text-contentTextColor underline">Exposition of
+                        the book's
                         title
                     </p>
                 </div>
@@ -98,7 +103,7 @@
     <section class="lg:pb-[12rem]  overflow-hidden">
         <div class="relative">
             <div class="container mx-auto">
-                <div class="flex pb-8 flex-col gap-5 w-full px-4 lg:px-60">
+                <div class="flex pb-8 flex-col gap-5 w-full px-4 lg:px-[340px]">
                     <h1 class="text-2xl lg:text-4xl font-sans font-semibold text-heading">Exposition of the book's title
                     </h1>
 
@@ -108,7 +113,8 @@
                         <div class="relative z-10 h-full">
                             <h3 class="text-base lg:text-[26px] font-nunito text-heading">The title of Imaam Birgivi's
                                 monumental work in Arabic is:</h3>
-                            <p class="font-nunito text-[#75A2E9] text-2xl text-end">ذخر المتأهلين والنساء في تعريف
+                            <p class="font-nunito text-[#75A2E9] font-semibold text-2xl text-end">ذخر المتأهلين والنساء
+                                في تعريف
                                 الأطهار و
                                 الدماء</p>
                         </div>
@@ -179,7 +185,7 @@
                                 class="bg-[#E3ECFB] text-end px-9 py-2 rounded-2xl font-semibold lg:text-xl text-[#75A2E9]">
                                 فمعرفة الدماء المختصة بالنساء واجبة عليهن وعلى الأزواج والأولياء
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="pl-10 lg:pl-0 flex">
@@ -198,7 +204,12 @@
                     <div>
                         <div class="pl-10 lg:pl-0 flex">
                             <span class="list-item text-text"></span>
-                            <p class="font-nunito text-sm lg:text-xl text-text">Taking that same meaning a small step further brings us to the word: “اهليّة”, which means “competence”, “aptitude”. In this perspective, one could argue that the Arabic language is hinting that despite the difficulties inherent with the transition into marriage, in order for a man to become “competent” in life, that he is to get married. And what bigger competence in life, than perfecting half of your religion:</p>
+                            <p class="font-nunito text-sm lg:text-xl text-text">Taking that same meaning a small step
+                                further brings us to the word: “اهليّة”, which means “competence”, “aptitude”. In this
+                                perspective, one could argue that the Arabic language is hinting that despite the
+                                difficulties inherent with the transition into marriage, in order for a man to become
+                                “competent” in life, that he is to get married. And what bigger competence in life, than
+                                perfecting half of your religion:</p>
                         </div>
                         <div class="mt-6">
                             <div
@@ -210,8 +221,8 @@
                             </div>
                         </div>
                         <img src="./img/greenFlower.png"
-                                class="hidden lg:block absolute -z-10 top-[30rem] bottom-0 -right-[0rem] transform -rotate-4"
-                                alt="">
+                            class="hidden lg:block absolute -z-10 top-[30rem] bottom-0 -right-[0rem] transform -rotate-4"
+                            alt="">
                     </div>
 
 
@@ -244,18 +255,17 @@
                             likewise the menfolk too will be implicated in the sin of negligence when there was a
                             failure in his household to practice on the correct knowledge pertaining to the
                             jurisprudence of menstruation.</p>
-                        <img src="./img/leftSideFlower.png" class="hidden lg:block absolute -z-10 left-[-0rem]"
-                            alt="">
+                        <img src="./img/leftSideFlower.png" class="hidden lg:block absolute -z-10 left-[-0rem]" alt="">
 
                     </div>
                     <div>
-                        <p class="font-nunito lg:text-2xl text-sm text-text mb-3">The last part of: “الأطهار و الدماء”
+                        <p class="font-nunito lg:text-xl font-normal text-sm text-text mb-3">The last part of: “الأطهار و الدماء”
                             is easily translated as: “ritual purity and bleedings”, which encompasses
                             Hayd(menstruation), Nifaas(postpartum bleeding), Istihadah(dysfunctional bleeding) and any
                             ritual purity one may attain through Ghusl(major ablution), Wudu(minor ablution),
                             Tayammum(substituted ablution) as well the ritual purity between two Hayd or between Nifaas
                             and Hayd of minimum 15 days.</p>
-                        <p class="font-nunito lg:text-2xl text-sm text-text mb-3">The word that we skipped inbetween:
+                        <p class="font-nunito lg:text-xl font-normal text-sm text-text mb-3">The word that we skipped inbetween:
                             “في تعريف”
                             is
                             translated as “the
@@ -289,7 +299,7 @@
                             bleeding) whereas the rest is to be discounted as Istihadah(dysfunctional bleeding).</p>
 
 
-                        <p class="font-nunito lg:text-2xl text-sm text-text mb-3">In this sense, our app has the
+                        <p class="font-nunito lg:text-xl font-normal text-sm text-text mb-3">In this sense, our app has the
                             ambition to further the legacy of Imaam Birgivi, to simplify practicing on our beautiful
                             religion. Whether you are a recent mother, a daughter coming of age, a recent convert,
                             someone facing complications on a regular basis or a habitual for whom it is all smooth
@@ -361,7 +371,8 @@
         <div class="bg-cover bg-center relative" style="background-image: url('./img/Mask Group.png');">
             <div class="absolute inset-0 bg-[#E3ECFB] text-end opacity-50"></div>
 
-            <div class="relative flex flex-col items-center lg:flex-row lg:gap-14 py-10 px-4 lg:px-36">
+            <div
+                class="container mx-auto relative flex flex-col items-center lg:flex-row lg:gap-14 py-10 px-4 lg:px-36">
                 <img class="w-[68px] h-[68px] lg:w-48 lg:h-44" src="./img/bannerLogo.png" alt="">
                 <div class="flex flex-col gap-4">
                     <h3 class="text-xl  text-center lg:text-start mt-2 lg:text-3xl font-semibold text-[#494E59]">Some
@@ -384,7 +395,7 @@
     </section>
 
     <footer class="bg-gradient-to-b from-[#75A2E9] to-[#5b42fc94] text-white py-8">
-        <div class="mx-4 lg:mx-36 block justify-between lg:flex items-center">
+        <div class="px-4 container mx-auto lg:px-36 block justify-between lg:flex items-center">
             <div class="flex w-full lg:w-1/2 flex-col">
                 <div class="flex  items-center mb-5 space-x-4">
                     <img src="./img/logo.png" alt="Logo" class="w-[42px] h-[42px]">
@@ -408,7 +419,7 @@
                 </ul>
             </div>
         </div>
-        <div class="mx-0 mt-5 px-3 lg:mx-36 flex items-center gap-[53px]">
+        <div class="mx-auto container mt-5  px-3 lg:px-36 flex items-center gap-[53px]">
             <p class="font-nunito text-[13px]">© 2023 MyHayd App, All Rights Reserved.</p>
             <span>|</span>
             <p class="font-nunito text-[13px]">Privacy Policy</p>
