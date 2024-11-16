@@ -21,12 +21,8 @@ This is a simple website created using HTML and CSS. Follow the instructions bel
 ## Features
 
 * Responsive design with Tailwind CSS
-
-<<<<<<< HEAD
 * remix icons for visual enhancements
-=======
-* FontAwesome icons for visual enhancements
->>>>>>> fe0004970435bc876ccf34e9ae3b273ea2d06d2b
+
 
 * Clean, minimalistic layout and structure
 
@@ -34,9 +30,5 @@ This is a simple website created using HTML and CSS. Follow the instructions bel
 
 * Tailwind CSS: For utility-first styling and responsiveness
 * HTML: The foundational markup of the application
-<<<<<<< HEAD
 * remix: Used for icons
-=======
-* FontAwesome: Used for icons
-    
->>>>>>> fe0004970435bc876ccf34e9ae3b273ea2d06d2b
+
