@@ -6,9 +6,9 @@ A brief description of what this project does and who it's for
 
 ## PDF of website
 
-page1: https://drive.google.com/file/d/16leBCOIsBCf8e1NWwu3g6YZWFWIfiwLC/view?usp=sharing
+page1 D/M: https://drive.google.com/file/d/1IcRkpmUATCMe-Q-P_FlJSm0SNYhyuFz8/view?usp=sharing
 
-page2: https://drive.google.com/file/d/1cf7NQRaqeXMhAYhS6qBtqhtsl-Eac377/view?usp=sharing
+page2 D/M: https://drive.google.com/file/d/1QVlnX8FA-iEyFx2YhZjqW4QnUY5krufD/view?usp=sharing
 
 ## Installation
 
@@ -22,11 +22,7 @@ This is a simple website created using HTML and CSS. Follow the instructions bel
 
 * Responsive design with Tailwind CSS
 
-<<<<<<< HEAD
 * remix icons for visual enhancements
-=======
-* FontAwesome icons for visual enhancements
->>>>>>> fe0004970435bc876ccf34e9ae3b273ea2d06d2b
 
 * Clean, minimalistic layout and structure
 
@@ -34,9 +30,4 @@ This is a simple website created using HTML and CSS. Follow the instructions bel
 
 * Tailwind CSS: For utility-first styling and responsiveness
 * HTML: The foundational markup of the application
-<<<<<<< HEAD
 * remix: Used for icons
-=======
-* FontAwesome: Used for icons
-    
->>>>>>> fe0004970435bc876ccf34e9ae3b273ea2d06d2b
